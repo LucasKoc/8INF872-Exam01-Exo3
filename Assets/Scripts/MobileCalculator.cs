@@ -154,14 +154,14 @@ public class MobileCalculator : MonoBehaviour
     {
         if (resultText == null) return;
         resultText.text = msg;
-        resultText.color = new Color(0.85f, 0.2f, 0.2f); // rouge doux
+        resultText.color = new Color(0.85f, 0.2f, 0.2f);
     }
 
     private void ShowSuccess(string msg)
     {
         if (resultText == null) return;
         resultText.text = msg;
-        resultText.color = new Color(0.2f, 0.8f, 0.3f); // vert
+        resultText.color = new Color(0.2f, 0.8f, 0.3f);
     }
 
     private void ShowInfo(string msg)
